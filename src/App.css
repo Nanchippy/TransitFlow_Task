@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  margin: 0px;
+		padding: 0px;
+    background-color:#FFFFFF;
+    background-image: url(https://s3-alpha-sig.figma.com/img/f9d0/8740/770957579a2c5261b096d035626a1166?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ogrMb0duZnksV-OaLW7PvZAvdRd8wrrjujNsFqIvwJxTCRgqz-6edXle~NoeR9k~cQ4ycz~vvZF4YHFlv5yLEODpblbGZ0~C8Jd40U3mJfxjCRZ~sUhqaD~3AhtoaW2RU9yCgcReSCbguRmD540ELpsNJcfRYdKl9BULAQwzFrqZ3cicLtVpANQhZRm9KZ2lsDx50LxcyEInP6~BCZTpDbYXikDaw80YwBKQSWeoHuEeDHUbA4gN~OJbRHZ7t2wik3kiPNlF-ewnnQV7MI~-wdJ10iSvNftuOPj6Tn5h01tvfHmv4Crr28dhY7LL3zRCpO642w6ZDOL6CzpljqzOgg__);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logoHeader{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 1920px;
+  height: 160px;
+  background: #091242;
+  top: 46px;
+  left: 360px;
+  gap: 244px;
 }
 
-.App-link {
-  color: #61dafb;
+.addressbar{
+  display: flex;
+  list-style: none;
+  margin-left: auto; 
+  font-family: Krub;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
+  gap: 39px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addressbar li {
+  margin-right: 200px;
+ 
+}
+
+ul{
+  list-style: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #FFFFFF;
+
+}
+
+h1{
+  margin-left: 20px;
+  font-family: Rubik;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+margin-left: 200px;
+
+}
+
+nav{
+  width: 1920px;
+height: 78px;
+top: 160px;
+display: flex;
+flex-direction: row;
+align-items: stretch;
+background-color:#09124240;
+;
+}
+
+.menu{
+  gap: 30px;
+  margin-left: 160px;
+  font-family: Krub;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+
+
+}
+.content{
+  gap: 24px;
+  margin-left: 616px;
+}
+
+.quote{
+  margin-left: 20px;
+  padding: 28px,52px,28px,52px;
+  width: 216px;
+  height: 78px;
+}
+
+.banner{
+  width: 1920px;
+height: 1035px;
+position: absolute;
+left: 0;
+
+width: Fixed (571px);
+height: Hug (406px);
+top: 411px;
+/* left: 360px; */
+padding-top: 0px;
+padding-left: 195px;
+
+
+}
+
+img{
+  width: 1995px;
+height: 995px;
+top: 100px;
+
+}
+
+.log{
+  font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+background-color:#041C3780;
+width: 227px;
+
+}
+
+.gate{
+  font-family: Rubik;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left; 
+color: #FFFFFF;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.explanation{
+  font-family: Krub;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.explore{
+  font-family: Krub;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #23212A;
+background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+padding: 28px,52px,28px,52px;
+width: 216px;
+height: 78px;
+
 }
